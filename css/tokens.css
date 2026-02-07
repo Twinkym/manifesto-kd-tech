@@ -1,0 +1,74 @@
+/* ==========================================
+KD TECH - CSS TOKENS
+Fuente única de verdad para el sistema visual
+============================================= */
+
+:root {
+    /* ==== Colors ==== */
+    --color-bg-main: #0b1020;
+    --color-surface: #121a2f;
+    --color-surface-2: #16203a;
+
+    --color-text-primary: #e6eef6;
+    --color-text-muted: #b6c2d1;
+    --color-text-soft: #8fa3b8;
+
+    --color-accent: #7dd3fc;
+
+    /* ==== Buttons ==== */
+    --color-btn-text: var(--color-text-primary);
+    --color-btn-hover-bg: rgba(125, 211, 252, 0.15);
+    --color-btn-active-bg: rgba(125, 211, 252, 0.25);
+    --color-btn-border: rgba(125, 211, 252, 0.6);
+
+    /* ==== Typography ==== */
+    --font-family-base: Inter, system-ui, -apple-system, sans-serif;
+
+    --font-size-h1: 1.6rem;
+    --font-size-base: 1rem;
+    --font-size-xs: 0.8rem;
+    --font-size-sm: 0.9rem;
+
+    --line-height-base: 1.6;
+
+    /* ===== Spacing ===== */
+    --space-2xs: 4px;
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 18px;
+    --space-lg: 28px;
+    --space-xl: 48px;
+
+    /* ==== Radius ==== */
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 24px;
+
+    /* ==== Logo ==== */
+    --logo-size-xxxl: 256px;
+    --logo-size-xxl: 128px;
+    --logo-size-xl: 96px;
+    --logo-size-lg: 64px;
+    --logo-size-md: 48px;
+
+    /* Motion */
+    --transition-fast: 0.08s ease;
+    --transition-base: 0.15s ease;
+
+    /* ==== Accessibility ==== */
+    --focus-outline: 3px solid var(--color-accent);
+}
+
+/* ==== High contrast mode ==== */
+[data-theme="high-contrast"] {
+    --color-bg-main: #000;
+    --color-surface: #000;
+    --color-text-primary: #fff;
+    --color-text-muted: #e0e0e0;
+    --color-accent: #ff0;
+}
+
+/* ==== Color-blindness (deuteranopia-safe)==== */
+[data-theme="color-blindness"] {
+    --color-accent: #00bcd4;
+}

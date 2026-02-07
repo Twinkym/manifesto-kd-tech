@@ -1,0 +1,77 @@
+.logo {
+    width: var(--logo-size-xxxl);
+    height: var(--logo-size-xxxl);
+    background: url("../img/Logo_KirgoDev_64.ico") center / contain no-repeat;
+    box-shadow: var(--logo-size-md);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+button.btn {
+    background: transparent;
+    border: 1px solid var(--color-btn-border);
+    color: var(--color-btn-text);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    margin: var(--space-sm);
+    cursor: pointer;
+    transition: all var(--transition-base);
+}
+
+button.btn:hover {
+    background: var(--color-btn-hover-bg);
+}
+
+button.btn:active {
+    background: var(--color-btn-active-bg);
+    transform: translateY(1px);
+}
+
+
+button.btn:active {
+    transform: translateY(1px);
+    box-shadow: var(--shadow-btn-active);
+}
+
+button.btn:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+
+blockquote {
+    max-width: 80%;
+    text-align: center;
+    position: relative;
+    background: var(--color-surface-2);
+    padding: var(--space-xl);
+    border-right: 4px solid var(--color-accent);
+    border-left: 4px solid var(--color-accent);
+    border-radius: var(--radius-md);
+    margin: var(--space-lg) 0;
+    font-size: var(--font-size-lg);
+    font-style: italic;
+    line-height: var(--line-height-lg);
+}
+
+blockquote::before {
+    content: "“";
+    position: absolute;
+    transform: rotate(180deg);
+    top: -5px;
+    left: 2%;
+    font-size: 3rem;
+    color: var(--color-accent);
+}
+
+blockquote::after {
+    content: "”";
+    position: absolute;
+    bottom: -5px;
+    right: 2%;
+    font-size: 3rem;
+    color: var(--color-accent);
+}
