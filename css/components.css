@@ -1,7 +1,7 @@
 .logo {
     width: var(--logo-size-xxxl);
     height: var(--logo-size-xxxl);
-    background: url("../img/Logo_KirgoDev_64.ico") center / contain no-repeat;
+    background: url("../public/img/Logo_KirgoDev_64.ico") center / contain no-repeat;
     box-shadow: var(--logo-size-md);
     border-radius: var(--radius-lg);
     cursor: pointer;
