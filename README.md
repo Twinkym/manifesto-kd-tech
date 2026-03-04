@@ -1,4 +1,4 @@
-# Manifesto KD Tech
+# KD Tech Manifesto
 
 > Tecnología con proposito. Ingeniería con conciencía. Sofrware para personas.
 
@@ -6,7 +6,7 @@
 
 ## 📜 ¿Qué es Manifesto KD Tech?
 
-Manifesto KD TECH es un documento vivo que define los principios técnicos, 
+KD TECH Manifesto es un documento vivo que define los principios técnicos, 
 éticos y humanos que guían la creación de software en KD Tech.
 
 No es marketing.
